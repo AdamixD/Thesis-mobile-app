@@ -1,0 +1,6 @@
+framework module Pods_EmotionAi {
+  umbrella header "Pods-EmotionAi-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		477974A22AEE8A750080B99D /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477974A12AEE8A750080B99D /* ModelController.swift */; };
+		477974A82AF80A110080B99D /* ModelPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477974A72AF80A110080B99D /* ModelPicker.swift */; };
+		477974B22AF967990080B99D /* CameraChangeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477974B12AF967990080B99D /* CameraChangeButton.swift */; };
+		477974B42AF96B2D0080B99D /* CameraFlashButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477974B32AF96B2D0080B99D /* CameraFlashButton.swift */; };
+		479ACBA82B1355A500AAAFE3 /* MobileNetTransferDataAugmentation.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 479ACBA52B1355A400AAAFE3 /* MobileNetTransferDataAugmentation.mlmodel */; };
+		479ACBA92B1355A500AAAFE3 /* MobileNetBase.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 479ACBA62B1355A500AAAFE3 /* MobileNetBase.mlmodel */; };
+		479ACBAA2B1355A500AAAFE3 /* MobileNetTransfer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 479ACBA72B1355A500AAAFE3 /* MobileNetTransfer.mlmodel */; };
+		479ACBAE2B13579400AAAFE3 /* MobileNetV2TransferDataAugmentation.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 479ACBAB2B13579300AAAFE3 /* MobileNetV2TransferDataAugmentation.mlmodel */; };
+		479ACBAF2B13579400AAAFE3 /* MobileNetV2Base.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 479ACBAC2B13579400AAAFE3 /* MobileNetV2Base.mlmodel */; };
+		479ACBB02B13579400AAAFE3 /* MobileNetV2Transfer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 479ACBAD2B13579400AAAFE3 /* MobileNetV2Transfer.mlmodel */; };
+		479ACBBA2B135A3200AAAFE3 /* MobileNetV3Base.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 479ACBB72B135A3000AAAFE3 /* MobileNetV3Base.mlmodel */; };
+		479ACBBB2B135A3200AAAFE3 /* MobileNetV3Transfer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 479ACBB82B135A3100AAAFE3 /* MobileNetV3Transfer.mlmodel */; };
+		479ACBBC2B135A3200AAAFE3 /* MobileNetV3TransferDataAugmentation.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 479ACBB92B135A3200AAAFE3 /* MobileNetV3TransferDataAugmentation.mlmodel */; };
+		479ACBCB2B135FEA00AAAFE3 /* EfficientNetB0Base.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 479ACBC92B135FEA00AAAFE3 /* EfficientNetB0Base.mlmodel */; };
+		479ACBCC2B135FEA00AAAFE3 /* ResNet50Base.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 479ACBCA2B135FEA00AAAFE3 /* ResNet50Base.mlmodel */; };
+		47B7A2A92AD4A1CC00D46725 /* EmotionAiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B7A2A82AD4A1CC00D46725 /* EmotionAiApp.swift */; };
+		47B7A2AD2AD4A1CD00D46725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47B7A2AC2AD4A1CD00D46725 /* Assets.xcassets */; };
+		47B7A2B02AD4A1CD00D46725 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47B7A2AF2AD4A1CD00D46725 /* Preview Assets.xcassets */; };
+		47B7A2B72AD4A21700D46725 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B7A2B62AD4A21700D46725 /* ProgressBar.swift */; };
+		47B7A2B92AD4A22600D46725 /* Prediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B7A2B82AD4A22600D46725 /* Prediction.swift */; };
+		47B7A2BB2AD4A23600D46725 /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B7A2BA2AD4A23600D46725 /* LoadingIndicator.swift */; };
+		47B7A2BD2AD4A24A00D46725 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B7A2BC2AD4A24A00D46725 /* ContentView.swift */; };
+		47B7A2BF2AD4A25900D46725 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B7A2BE2AD4A25900D46725 /* WelcomeView.swift */; };
+		47B7A2C12AD4A26A00D46725 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B7A2C02AD4A26A00D46725 /* CameraView.swift */; };
+		47B7A2C32AD4A27A00D46725 /* PredictionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B7A2C22AD4A27A00D46725 /* PredictionsListView.swift */; };
+		47CDC3982B1D26CF00EB321D /* MobileNetV2TransferDataAugmentationBalanced.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 47CDC3952B1D26CD00EB321D /* MobileNetV2TransferDataAugmentationBalanced.mlmodel */; };
+		47CDC3992B1D26CF00EB321D /* MobileNetV3TransferDataAugmentationBalanced.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 47CDC3962B1D26CE00EB321D /* MobileNetV3TransferDataAugmentationBalanced.mlmodel */; };
+		47CDC39A2B1D26CF00EB321D /* MobileNetTransferDataAugmentationBalanced.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 47CDC3972B1D26CF00EB321D /* MobileNetTransferDataAugmentationBalanced.mlmodel */; };
+		83C17E750031AF5A541CBDAE /* Pods_EmotionAi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D980B871B83914DB82722E93 /* Pods_EmotionAi.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01F6F6934252E5E2A1CAE136 /* Pods-EmotionAi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmotionAi.release.xcconfig"; path = "Target Support Files/Pods-EmotionAi/Pods-EmotionAi.release.xcconfig"; sourceTree = "<group>"; };
+		477974A12AEE8A750080B99D /* ModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		477974A72AF80A110080B99D /* ModelPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPicker.swift; sourceTree = "<group>"; };
+		477974B12AF967990080B99D /* CameraChangeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraChangeButton.swift; sourceTree = "<group>"; };
+		477974B32AF96B2D0080B99D /* CameraFlashButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFlashButton.swift; sourceTree = "<group>"; };
+		47968CEC2AD5EA55009C0246 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		479ACBA52B1355A400AAAFE3 /* MobileNetTransferDataAugmentation.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetTransferDataAugmentation.mlmodel; sourceTree = "<group>"; };
+		479ACBA62B1355A500AAAFE3 /* MobileNetBase.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetBase.mlmodel; sourceTree = "<group>"; };
+		479ACBA72B1355A500AAAFE3 /* MobileNetTransfer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetTransfer.mlmodel; sourceTree = "<group>"; };
+		479ACBAB2B13579300AAAFE3 /* MobileNetV2TransferDataAugmentation.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2TransferDataAugmentation.mlmodel; sourceTree = "<group>"; };
+		479ACBAC2B13579400AAAFE3 /* MobileNetV2Base.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2Base.mlmodel; sourceTree = "<group>"; };
+		479ACBAD2B13579400AAAFE3 /* MobileNetV2Transfer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2Transfer.mlmodel; sourceTree = "<group>"; };
+		479ACBB72B135A3000AAAFE3 /* MobileNetV3Base.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV3Base.mlmodel; sourceTree = "<group>"; };
+		479ACBB82B135A3100AAAFE3 /* MobileNetV3Transfer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV3Transfer.mlmodel; sourceTree = "<group>"; };
+		479ACBB92B135A3200AAAFE3 /* MobileNetV3TransferDataAugmentation.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV3TransferDataAugmentation.mlmodel; sourceTree = "<group>"; };
+		479ACBC92B135FEA00AAAFE3 /* EfficientNetB0Base.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = EfficientNetB0Base.mlmodel; sourceTree = "<group>"; };
+		479ACBCA2B135FEA00AAAFE3 /* ResNet50Base.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ResNet50Base.mlmodel; sourceTree = "<group>"; };
+		47B7A2A52AD4A1CC00D46725 /* EmotionAi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmotionAi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47B7A2A82AD4A1CC00D46725 /* EmotionAiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionAiApp.swift; sourceTree = "<group>"; };
+		47B7A2AC2AD4A1CD00D46725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47B7A2AF2AD4A1CD00D46725 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		47B7A2B62AD4A21700D46725 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		47B7A2B82AD4A22600D46725 /* Prediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prediction.swift; sourceTree = "<group>"; };
+		47B7A2BA2AD4A23600D46725 /* LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
+		47B7A2BC2AD4A24A00D46725 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		47B7A2BE2AD4A25900D46725 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		47B7A2C02AD4A26A00D46725 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		47B7A2C22AD4A27A00D46725 /* PredictionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionsListView.swift; sourceTree = "<group>"; };
+		47CDC3952B1D26CD00EB321D /* MobileNetV2TransferDataAugmentationBalanced.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2TransferDataAugmentationBalanced.mlmodel; sourceTree = "<group>"; };
+		47CDC3962B1D26CE00EB321D /* MobileNetV3TransferDataAugmentationBalanced.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV3TransferDataAugmentationBalanced.mlmodel; sourceTree = "<group>"; };
+		47CDC3972B1D26CF00EB321D /* MobileNetTransferDataAugmentationBalanced.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetTransferDataAugmentationBalanced.mlmodel; sourceTree = "<group>"; };
+		58745FA34C302B3D124A3D2E /* Pods-EmotionAi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmotionAi.debug.xcconfig"; path = "Target Support Files/Pods-EmotionAi/Pods-EmotionAi.debug.xcconfig"; sourceTree = "<group>"; };
+		D980B871B83914DB82722E93 /* Pods_EmotionAi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmotionAi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47B7A2A22AD4A1CC00D46725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C17E750031AF5A541CBDAE /* Pods_EmotionAi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E47669E52D6D33C564BFDF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58745FA34C302B3D124A3D2E /* Pods-EmotionAi.debug.xcconfig */,
+				01F6F6934252E5E2A1CAE136 /* Pods-EmotionAi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		474ABF642B3EDBBB00FF8999 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				479ACBC92B135FEA00AAAFE3 /* EfficientNetB0Base.mlmodel */,
+				479ACBA62B1355A500AAAFE3 /* MobileNetBase.mlmodel */,
+				479ACBA72B1355A500AAAFE3 /* MobileNetTransfer.mlmodel */,
+				479ACBA52B1355A400AAAFE3 /* MobileNetTransferDataAugmentation.mlmodel */,
+				47CDC3972B1D26CF00EB321D /* MobileNetTransferDataAugmentationBalanced.mlmodel */,
+				479ACBAC2B13579400AAAFE3 /* MobileNetV2Base.mlmodel */,
+				479ACBAD2B13579400AAAFE3 /* MobileNetV2Transfer.mlmodel */,
+				479ACBAB2B13579300AAAFE3 /* MobileNetV2TransferDataAugmentation.mlmodel */,
+				47CDC3952B1D26CD00EB321D /* MobileNetV2TransferDataAugmentationBalanced.mlmodel */,
+				479ACBB72B135A3000AAAFE3 /* MobileNetV3Base.mlmodel */,
+				479ACBB82B135A3100AAAFE3 /* MobileNetV3Transfer.mlmodel */,
+				479ACBB92B135A3200AAAFE3 /* MobileNetV3TransferDataAugmentation.mlmodel */,
+				47CDC3962B1D26CE00EB321D /* MobileNetV3TransferDataAugmentationBalanced.mlmodel */,
+				479ACBCA2B135FEA00AAAFE3 /* ResNet50Base.mlmodel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		47B7A29C2AD4A1CC00D46725 = {
+			isa = PBXGroup;
+			children = (
+				47B7A2A72AD4A1CC00D46725 /* EmotionAi */,
+				47B7A2A62AD4A1CC00D46725 /* Products */,
+				3E47669E52D6D33C564BFDF0 /* Pods */,
+				A18C750B942D7CAB96E9E0EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		47B7A2A62AD4A1CC00D46725 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47B7A2A52AD4A1CC00D46725 /* EmotionAi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47B7A2A72AD4A1CC00D46725 /* EmotionAi */ = {
+			isa = PBXGroup;
+			children = (
+				47B7A2C42AD4A27E00D46725 /* Components */,
+				474ABF642B3EDBBB00FF8999 /* Models */,
+				47B7A2C52AD4A29500D46725 /* Views */,
+				47B7A2A82AD4A1CC00D46725 /* EmotionAiApp.swift */,
+				47B7A2AC2AD4A1CD00D46725 /* Assets.xcassets */,
+				47968CEC2AD5EA55009C0246 /* Info.plist */,
+				47B7A2AE2AD4A1CD00D46725 /* Preview Content */,
+			);
+			path = EmotionAi;
+			sourceTree = "<group>";
+		};
+		47B7A2AE2AD4A1CD00D46725 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				47B7A2AF2AD4A1CD00D46725 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		47B7A2C42AD4A27E00D46725 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				477974B12AF967990080B99D /* CameraChangeButton.swift */,
+				477974B32AF96B2D0080B99D /* CameraFlashButton.swift */,
+				47B7A2BA2AD4A23600D46725 /* LoadingIndicator.swift */,
+				477974A12AEE8A750080B99D /* ModelController.swift */,
+				477974A72AF80A110080B99D /* ModelPicker.swift */,
+				47B7A2B82AD4A22600D46725 /* Prediction.swift */,
+				47B7A2B62AD4A21700D46725 /* ProgressBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		47B7A2C52AD4A29500D46725 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				47B7A2BC2AD4A24A00D46725 /* ContentView.swift */,
+				47B7A2BE2AD4A25900D46725 /* WelcomeView.swift */,
+				47B7A2C02AD4A26A00D46725 /* CameraView.swift */,
+				47B7A2C22AD4A27A00D46725 /* PredictionsListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A18C750B942D7CAB96E9E0EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D980B871B83914DB82722E93 /* Pods_EmotionAi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47B7A2A42AD4A1CC00D46725 /* EmotionAi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47B7A2B32AD4A1CD00D46725 /* Build configuration list for PBXNativeTarget "EmotionAi" */;
+			buildPhases = (
+				78194D2E357434D6F4459838 /* [CP] Check Pods Manifest.lock */,
+				47B7A2A12AD4A1CC00D46725 /* Sources */,
+				47B7A2A22AD4A1CC00D46725 /* Frameworks */,
+				47B7A2A32AD4A1CC00D46725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmotionAi;
+			productName = EmotionAi;
+			productReference = 47B7A2A52AD4A1CC00D46725 /* EmotionAi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47B7A29D2AD4A1CC00D46725 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					47B7A2A42AD4A1CC00D46725 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 47B7A2A02AD4A1CC00D46725 /* Build configuration list for PBXProject "EmotionAi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47B7A29C2AD4A1CC00D46725;
+			productRefGroup = 47B7A2A62AD4A1CC00D46725 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47B7A2A42AD4A1CC00D46725 /* EmotionAi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47B7A2A32AD4A1CC00D46725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B7A2B02AD4A1CD00D46725 /* Preview Assets.xcassets in Resources */,
+				47B7A2AD2AD4A1CD00D46725 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78194D2E357434D6F4459838 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EmotionAi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47B7A2A12AD4A1CC00D46725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B7A2B92AD4A22600D46725 /* Prediction.swift in Sources */,
+				477974B42AF96B2D0080B99D /* CameraFlashButton.swift in Sources */,
+				479ACBA92B1355A500AAAFE3 /* MobileNetBase.mlmodel in Sources */,
+				47CDC3992B1D26CF00EB321D /* MobileNetV3TransferDataAugmentationBalanced.mlmodel in Sources */,
+				47CDC39A2B1D26CF00EB321D /* MobileNetTransferDataAugmentationBalanced.mlmodel in Sources */,
+				47B7A2C12AD4A26A00D46725 /* CameraView.swift in Sources */,
+				479ACBA82B1355A500AAAFE3 /* MobileNetTransferDataAugmentation.mlmodel in Sources */,
+				47B7A2BF2AD4A25900D46725 /* WelcomeView.swift in Sources */,
+				477974A22AEE8A750080B99D /* ModelController.swift in Sources */,
+				479ACBAF2B13579400AAAFE3 /* MobileNetV2Base.mlmodel in Sources */,
+				47B7A2BD2AD4A24A00D46725 /* ContentView.swift in Sources */,
+				47B7A2BB2AD4A23600D46725 /* LoadingIndicator.swift in Sources */,
+				479ACBAE2B13579400AAAFE3 /* MobileNetV2TransferDataAugmentation.mlmodel in Sources */,
+				479ACBCB2B135FEA00AAAFE3 /* EfficientNetB0Base.mlmodel in Sources */,
+				47B7A2B72AD4A21700D46725 /* ProgressBar.swift in Sources */,
+				479ACBBC2B135A3200AAAFE3 /* MobileNetV3TransferDataAugmentation.mlmodel in Sources */,
+				47B7A2A92AD4A1CC00D46725 /* EmotionAiApp.swift in Sources */,
+				47CDC3982B1D26CF00EB321D /* MobileNetV2TransferDataAugmentationBalanced.mlmodel in Sources */,
+				479ACBBB2B135A3200AAAFE3 /* MobileNetV3Transfer.mlmodel in Sources */,
+				479ACBCC2B135FEA00AAAFE3 /* ResNet50Base.mlmodel in Sources */,
+				479ACBBA2B135A3200AAAFE3 /* MobileNetV3Base.mlmodel in Sources */,
+				47B7A2C32AD4A27A00D46725 /* PredictionsListView.swift in Sources */,
+				477974A82AF80A110080B99D /* ModelPicker.swift in Sources */,
+				479ACBB02B13579400AAAFE3 /* MobileNetV2Transfer.mlmodel in Sources */,
+				477974B22AF967990080B99D /* CameraChangeButton.swift in Sources */,
+				479ACBAA2B1355A500AAAFE3 /* MobileNetTransfer.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		47B7A2B12AD4A1CD00D46725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47B7A2B22AD4A1CD00D46725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47B7A2B42AD4A1CD00D46725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58745FA34C302B3D124A3D2E /* Pods-EmotionAi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EmotionAi/Preview Content\"";
+				DEVELOPMENT_TEAM = UFSP85KGJ2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EmotionAi/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Access is required to get the camera image";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.com.EmotionAi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47B7A2B52AD4A1CD00D46725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01F6F6934252E5E2A1CAE136 /* Pods-EmotionAi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EmotionAi/Preview Content\"";
+				DEVELOPMENT_TEAM = UFSP85KGJ2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EmotionAi/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Access is required to get the camera image";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.com.EmotionAi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47B7A2A02AD4A1CC00D46725 /* Build configuration list for PBXProject "EmotionAi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47B7A2B12AD4A1CD00D46725 /* Debug */,
+				47B7A2B22AD4A1CD00D46725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47B7A2B32AD4A1CD00D46725 /* Build configuration list for PBXNativeTarget "EmotionAi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47B7A2B42AD4A1CD00D46725 /* Debug */,
+				47B7A2B52AD4A1CD00D46725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47B7A29D2AD4A1CC00D46725 /* Project object */;
+}
